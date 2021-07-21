@@ -1,0 +1,20 @@
+{
+  "name": "md-pizza",
+  "version": "1.0.0",
+  "description": "a simple pizza delivery website",
+  "main": "index.js",
+  "author": "m danish",
+  "license": "MIT",
+  "scripts": {
+    "server":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
