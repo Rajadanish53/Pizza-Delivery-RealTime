@@ -5,7 +5,7 @@ body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: $dark;
-  height: 4000px;
+  
 }
 .container {
   max-width: 90%;
@@ -37,5 +37,19 @@ section.hero{
     background: $primary;
     border-color: $pure;
     color:$pure;
+  }
+}
+.btn-primary{
+  background: $primary;
+  transition: $smooth;
+  &:hover{
+    background: $primary-hover;
+  }
+}
+
+section.cart{
+  background: $secondary;
+  .amount{
+    color: $primary;
   }
 }
